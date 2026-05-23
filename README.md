@@ -37,6 +37,6 @@ I build systems that require deep technical rigor—from zero-config browser-nat
 
 - **Twitter:** [@assassin_859](https://twitter.com/assassin_859)
 - **LinkedIn:** [Maitreya Gaikwad](https://www.linkedin.com/in/maitreya-gaikwad-9b358b2a4)
-
+- **Discord:** `maitsol`
 ---
 *“Engineering secure systems at the intersection of AI and Web3.”*
