@@ -1,42 +1,30 @@
 # Hi, I'm Maitreya Gaikwad 👋
 
-I am a **Systems & Software Engineer** specializing in secure, high-performance architectures. My work spans across Blockchain/EVM tooling, Applied AI, and Cybersecurity infrastructure.
+Blockchain & Web3 Developer based in Mumbai, India.
+I build production-grade smart contracts, private blockchain infrastructure, and Web3 developer tooling.
 
-I build systems that require deep technical rigor—from zero-config browser-native Solidity labs to automated fintech AI agents and security-hardened enterprise systems.
+## 🔨 What I Build
 
-### 💡 Core Engineering Focus
-- **Web3 & Blockchain Protocol Design:** EVM emulation, gas optimization, automated yield architecture.
-- **Cybersecurity & Identity:** Static vulnerability analysis, data shield architectures, identity systems.
-- **Applied AI & Full-Stack:** Integrating LLMs into financial workflows, building complex reactive UIs.
+**[CryptP IDE](https://cryptp-production.up.railway.app)** — [GitHub](https://github.com/Assassin859/cryptp)
+Browser-native Solidity development environment with line-by-line gas cost heatmap, built-in security vulnerability detection, AI assistant, and multi-chain deployment. No setup. All in the browser.
 
-### 🚀 Featured Engineering Work
+**[Pharbit Blockchain System](https://pharbit.com)**
+Private Ethereum chain (Hyperledger Besu, IBFT 2.0) for pharmaceutical supply chain verification. 4-node AWS validator network, 5 production Solidity smart contracts (1,135 lines), IPFS integration.
 
-**[CryptP IDE](https://github.com/Assassin859/cryptp)** 
-*A browser-native Solidity lab built for security researchers and developers.*
-*   Engineered a custom pipeline using WebAssembly and `@ethereumjs/vm` to compile and simulate smart contracts entirely client-side.
-*   Built an integrated AST static analyzer to detect vulnerabilities in real-time.
+**[VaultFlow](https://vaultflow-production-8062.up.railway.app)** — [GitHub](https://github.com/Assassin859/vaultflow)
+DeFi lending protocol with collateral management and real-time APY tracking. Built in 5 days on Oasis Sapphire Testnet.
 
-**[AI-CFO](https://github.com/Assassin859/AI-CFO)** 
-*Your personal, automated financial architecture.*
-*   Designed an AI-driven financial agent capable of complex logic execution and data processing.
+**[AI-CFO](https://github.com/Assassin859/AI-CFO)**
+AI-powered financial management tool for startups with market alerts and forecasting.
 
-**[VaultFlow](https://github.com/Assassin859/vaultflow)**
-*   Developed a secure smart contract protocol focused on optimized yield strategies and robust economic safeguards.
+## 🛠️ Stack
 
-**[Cyber-Shield & UIDAI Integrations]**
-*   Built security-focused implementations dealing with data protection (`Cyber-Shield`) and scalable identity/device management (`UIDAI`, `MDM`).
+Solidity · Hardhat · Ethers.js · OpenZeppelin · IPFS · Hyperledger Besu
+React.js · Node.js · PostgreSQL · Supabase · AWS · Python
 
-### 🛠️ Tech Stack & Capabilities
+## 📫 Connect
 
-*   **Languages:** TypeScript, JavaScript, Solidity, Go/Python (Based on your AI/System work)
-*   **Infrastructure & Security:** AST Parsing, Static Analysis, Cryptography
-*   **Web3:** Ethers.js, Hardhat, EthereumJS VM
-*   **Frontend/Backend:** React, Node.js, AI APIs
+[Twitter/X](https://twitter.com/assassin_859) · [LinkedIn](https://www.linkedin.com/in/maitreya-gaikwad-9b358b2a4) · Discord: `maitsol`
 
-### 📫 Let's Connect
-
-- **Twitter:** [@assassin_859](https://twitter.com/assassin_859)
-- **LinkedIn:** [Maitreya Gaikwad](https://www.linkedin.com/in/maitreya-gaikwad-9b358b2a4)
-- **Discord:** `maitsol`
 ---
-*“Engineering secure systems at the intersection of AI and Web3.”*
+*Building at the intersection of blockchain infrastructure and developer tooling.*
