@@ -72,11 +72,11 @@ AI-powered financial management tool for startups with market alerts and forecas
 
 ---
 
-## 🐍 Contribution Graph
+## � Contribution graph
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/Assassin859/Assassin859/output/github-contribution-grid-snake-dark.svg)
+![GitHub contribution graph](https://ghchart.rshah.org/Assassin859)
 
 </div>
 
