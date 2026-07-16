@@ -115,14 +115,6 @@ contract MaitreyaGaikwad is Ownable, Developer {
 
 </div>
 
-### 📦 Blockchain Ledger (3D Contribution Graph)
-
-<div align="center">
-
-![3D Contribution Graph](https://raw.githubusercontent.com/Assassin859/Assassin859/main/profile-3d-contrib/profile-green-animate.svg)
-
-</div>
-
 ### 🐍 Contribution Snake
 
 <div align="center">

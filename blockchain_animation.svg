@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
   <style>
     @keyframes pulse {
       0% { stroke-dashoffset: 24; }
@@ -10,7 +10,7 @@
     }
     @keyframes block-float {
       0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-5px); }
+      50% { transform: translateY(-6px); }
     }
     @keyframes hash-flicker {
       0%, 100% { opacity: 0.8; }
@@ -42,42 +42,42 @@
     }
   </style>
 
-  <!-- Background -->
-  <rect width="600" height="200" rx="10" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+  <!-- Clean transparent background for natural container integration -->
+  <rect width="600" height="200" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
 
-  <!-- Connections / Chains -->
-  <line x1="140" y1="100" x2="260" y2="100" stroke-width="2" class="connector" />
-  <line x1="340" y1="100" x2="460" y2="100" stroke-width="2" class="connector" />
+  <!-- Connections / Chains (Symmetric) -->
+  <line x1="130" y1="100" x2="260" y2="100" stroke-width="2" class="connector" />
+  <line x1="340" y1="100" x2="470" y2="100" stroke-width="2" class="connector" />
 
   <!-- Block 1 (Genesis) -->
-  <g class="node-block" transform="translate(60, 50)">
-    <rect width="80" height="80" rx="8" fill="#1E293B" stroke="#0284C7" stroke-width="2" />
-    <text x="40" y="35" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#E2E8F0" font-weight="bold" text-anchor="middle">BLOCK #0</text>
-    <text x="40" y="55" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" fill="#38BDF8" text-anchor="middle">Genesis</text>
-    <text x="40" y="70" class="hash-text" text-anchor="middle">0x0000a1b2</text>
+  <g class="node-block" transform="translate(50, 60)">
+    <rect width="80" height="80" rx="8" fill="#161B22" stroke="#30363D" stroke-width="2" />
+    <text x="40" y="30" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#E2E8F0" font-weight="bold" text-anchor="middle">BLOCK #0</text>
+    <text x="40" y="48" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" fill="#38BDF8" text-anchor="middle">Genesis</text>
+    <text x="40" y="65" class="hash-text" text-anchor="middle">0x0000a1b2</text>
   </g>
 
   <!-- Block 2 (DeFi) -->
-  <g class="node-block" transform="translate(260, 50)">
-    <rect width="80" height="80" rx="8" fill="#1E293B" stroke="#8B5CF6" stroke-width="2" />
-    <text x="40" y="35" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#E2E8F0" font-weight="bold" text-anchor="middle">BLOCK #859</text>
-    <text x="40" y="55" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" fill="#A78BFA" text-anchor="middle">VaultFlow</text>
-    <text x="40" y="70" class="hash-text" text-anchor="middle">0x5f8e3c9b</text>
+  <g class="node-block" transform="translate(260, 60)">
+    <rect width="80" height="80" rx="8" fill="#161B22" stroke="#8B5CF6" stroke-width="2" />
+    <text x="40" y="30" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#E2E8F0" font-weight="bold" text-anchor="middle">BLOCK #859</text>
+    <text x="40" y="48" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" fill="#A78BFA" text-anchor="middle">VaultFlow</text>
+    <text x="40" y="65" class="hash-text" text-anchor="middle">0x5f8e3c9b</text>
   </g>
 
   <!-- Block 3 (Latest Mined) -->
-  <g class="latest-block" transform="translate(460, 50)">
-    <rect width="80" height="80" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="2" />
-    <text x="40" y="35" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#E2E8F0" font-weight="bold" text-anchor="middle">BLOCK #860</text>
-    <text x="40" y="55" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" fill="#34D399" text-anchor="middle">Atheon IDE</text>
-    <text x="40" y="70" class="hash-text" text-anchor="middle">0x9c8b7f2a</text>
+  <g class="latest-block" transform="translate(470, 60)">
+    <rect width="80" height="80" rx="8" fill="#0D1117" stroke="#10B981" stroke-width="2" />
+    <text x="40" y="30" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#E2E8F0" font-weight="bold" text-anchor="middle">BLOCK #860</text>
+    <text x="40" y="48" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" fill="#34D399" text-anchor="middle">Atheon IDE</text>
+    <text x="40" y="65" class="hash-text" text-anchor="middle">0x9c8b7f2a</text>
     <!-- Mined pulse ring -->
     <circle cx="40" cy="40" r="48" fill="none" stroke="#10B981" stroke-width="1.5" opacity="0.3" style="animation: pulse-glow 2s infinite;" />
   </g>
 
-  <!-- Decorative Network Nodes in background -->
-  <circle cx="40" cy="30" r="2" fill="#334155" />
-  <circle cx="560" cy="170" r="3" fill="#334155" />
-  <circle cx="200" cy="40" r="2.5" fill="#334155" />
-  <circle cx="400" cy="160" r="2" fill="#334155" />
+  <!-- Decorative Network Nodes -->
+  <circle cx="40" cy="30" r="2" fill="#30363D" />
+  <circle cx="560" cy="170" r="3" fill="#30363D" />
+  <circle cx="200" cy="40" r="2.5" fill="#30363D" />
+  <circle cx="400" cy="160" r="2" fill="#30363D" />
 </svg>
