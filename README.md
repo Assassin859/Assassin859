@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Assassin859/Assassin859/main/matrix_decode.svg?v=2" width="800" alt="Matrix Cipher Decode Animation" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=22&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&multiline=false&width=750&lines=Hi%2C+I'm+Maitreya+Gaikwad+%F0%9F%91%8B;Blockchain+%26+Web3+Developer;Smart+Contracts+%7C+DeFi+%7C+Solana;Building+production-grade+Web3+systems;1%2C135+lines+of+production+Solidity;3%2C312+lines+merged+in+open+source;Hyperledger+Besu+%7C+IBFT+2.0+%7C+AWS;OpenZeppelin+%7C+Hardhat+%7C+Ethers.js" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Maitreya+Gaikwad+%F0%9F%91%8B;Blockchain+%26+Web3+Developer;Smart+Contracts+%7C+DeFi+%7C+Solana;Building+production-grade+Web3+systems" alt="Typing SVG" />
 
 <br/>
 
