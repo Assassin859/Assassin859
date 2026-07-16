@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160">
+  <style>
+    @keyframes cipher-hide {
+      0%, 30% { opacity: 1; display: inline; }
+      35%, 100% { opacity: 0; display: none; }
+    }
+    @keyframes plain-show {
+      0%, 30% { opacity: 0; display: none; }
+      35%, 100% { opacity: 1; display: inline; }
+    }
+    @keyframes scan-line {
+      0% { left: 0%; opacity: 0; }
+      30% { opacity: 0.8; }
+      35% { left: 100%; opacity: 0; }
+      100% { left: 100%; opacity: 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+    .cipher {
+      font-family: 'Courier New', monospace;
+      font-weight: bold;
+      fill: #EF4444;
+      animation: cipher-hide 4s infinite alternate;
+    }
+    .plain {
+      font-family: 'Share Tech Mono', 'Courier New', monospace;
+      fill: #10B981;
+      animation: plain-show 4s infinite alternate;
+    }
+    .lock-anim {
+      transform-origin: center;
+      animation: pulse 2s infinite;
+    }
+  </style>
+
+  <!-- Border & Background -->
+  <rect width="600" height="160" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5" />
+
+  <!-- Security Header -->
+  <g transform="translate(25, 30)">
+    <circle cx="0" cy="-5" r="4" fill="#EF4444" style="animation: pulse 1s infinite;" />
+    <text x="15" y="-1" font-family="'Share Tech Mono', monospace" font-size="12" fill="#8B949E" letter-spacing="1">SECURE BLOCKCHAIN DECRYPTION ENGINE v1.0.8</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="25" y1="42" x2="575" y2="42" stroke="#21262D" stroke-width="1" />
+
+  <!-- Encryption/Decryption Output Rows -->
+  <g transform="translate(25, 75)" font-size="14">
+    <!-- Row 1 -->
+    <g transform="translate(0, 0)">
+      <text class="cipher">&gt; DECRYPT_REQ: 0x7A#9f!2k@m9s8p7q6v5u4t3s2r1q... [ENCRYPTED]</text>
+      <text class="plain">&gt; DECRYPT_RES: SIGNATURE VERIFIED (0xAssassin859...9b35)</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0, 25)">
+      <text class="cipher">&gt; PAYLOAD: *#$&amp;%@!*(&amp;%^$#@!*(&amp;%^$#@!*(&amp;%^$#@... [LOCKED]</text>
+      <text class="plain">&gt; CONTRACTS: PHARBIT &amp; ATHEON CODEBASES DECRYPTED [100% OK]</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(0, 50)">
+      <text class="cipher">&gt; STATUS: INITIALIZING SHA-256 PARALLEL DECRYPT... [PENDING]</text>
+      <text class="plain">&gt; STATUS: ACCESS GRANTED. SECURED DEVELOPER SESSION INITIALIZED.</text>
+    </g>
+  </g>
+
+  <!-- Decorative Status Indicator (Right corner) -->
+  <g transform="translate(540, 15)">
+    <!-- Shield/Lock icon -->
+    <path class="lock-anim" d="M12 2L4 5v6c0 5.25 3.83 10.14 8 11.2 4.17-1.06 8-5.95 8-11.2V5l-8-3zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" fill="#38BDF8" transform="scale(0.8)" />
+  </g>
+</svg>
