@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snake and Update Stats
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -12,7 +12,27 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Run update_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python update_stats.py
+        
+      - name: Commit and Push updated stats SVG
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metamask.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update dynamic wallet stats" && git push)
+          
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
         with:
           github_user_name: Assassin859
           outputs: |
@@ -20,7 +40,9 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg@dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: crazy-max/ghaction-github-pages@v4
+          
+      - name: Deploy Snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist

@@ -12,6 +12,23 @@
 
 ---
 
+## 🌐 Web3 Developer Dashboard
+
+<div align="center">
+  <table>
+    <tr>
+      <td valign="top">
+        <img src="https://raw.githubusercontent.com/Assassin859/Assassin859/main/metamask.svg" width="310" alt="MetaMask Wallet Mockup" />
+      </td>
+      <td valign="top">
+        <img src="https://raw.githubusercontent.com/Assassin859/Assassin859/main/terminal.svg" width="490" alt="Foundry Terminal Mockup" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
@@ -98,7 +115,11 @@ contract MaitreyaGaikwad is Ownable, Developer {
 
 <div align="center">
 
-![github contribution grid snake animation](https://raw.githubusercontent.com/Assassin859/Assassin859/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Assassin859/Assassin859/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Assassin859/Assassin859/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Assassin859/Assassin859/output/github-contribution-grid-snake.svg">
+</picture>
 
 </div>
 
