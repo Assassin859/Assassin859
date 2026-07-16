@@ -12,56 +12,80 @@
 
 ---
 
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract MaitreyaGaikwad is Ownable, Developer {
+    string public constant name = "Maitreya Gaikwad";
+    string public constant role = "Blockchain & Web3 Systems Architect";
+    string public constant location = "Mumbai, India";
+    
+    mapping(string => string[]) public skills;
+    
+    constructor() {
+        skills["languages"] = ["Solidity", "TypeScript", "JavaScript", "Python", "SQL", "HTML/CSS"];
+        skills["blockchain"] = ["Ethereum", "Solana", "Hyperledger Besu", "Ethers.js", "Web3.js", "Wagmi", "Hardhat", "Truffle", "OpenZeppelin"];
+        skills["backend"] = ["Node.js", "Express.js", "Supabase", "PostgreSQL", "MySQL", "REST APIs"];
+        skills["devops"] = ["AWS (EC2)", "Docker", "Git/GitHub", "CI/CD (pipelines)"];
+        skills["ai_assisted"] = ["Antigravity IDE", "Claude Code", "Cursor", "GitHub Copilot"];
+    }
+}
+```
+
+---
+
 ## 🔨 What I Build
 
-**[Atheon IDE](https://cryptp-production.up.railway.app)** — [GitHub](https://github.com/Assassin859/cryptp)
-Browser-native Solidity IDE with line-by-line gas cost heatmap, built-in security scanner, AI assistant, and multi-chain deployment. No setup. All in the browser.
+🚀 **[Atheon IDE](https://cryptp-production.up.railway.app)** — [GitHub](https://github.com/Assassin859/cryptp)
+* Browser-native Solidity IDE with line-by-line gas cost heatmap (unique differentiator vs Remix).
+* Built-in AI security linting, function-level gas analytics charts, and multi-chain deployment support.
+* Multi-provider AI integration layer supporting user-supplied API keys (OpenAI/Claude) and automatic GitHub Copilot key retrieval via GitHub OAuth.
+* Sandbox environment featuring WebAssembly sandboxed Linux terminal, Supabase Auth, and Wagmi/Ethers.js wallet integration.
 
-**[Pharbit Blockchain System](https://pharbit.com)**
-Private Ethereum chain (Hyperledger Besu, IBFT 2.0) for pharmaceutical supply chain verification. 4-node AWS validator network, 5 production smart contracts (1,135 lines), IPFS integration.
+🏥 **[Pharbit Blockchain System](https://pharbit.com)**
+* Enterprise-grade private Ethereum chain (Hyperledger Besu, IBFT 2.0 consensus) for pharmaceutical supply chain verification.
+* Built 4-node AWS validator network with 2-second block time, IPFS (Web3.Storage) integration, and full-stack React.js/Supabase admin dashboard.
+* Deployed 5 production smart contracts in Solidity (1,135 lines total) with role-based access control, reentrancy guards, and a USDT-backed deposit system.
 
-**[VaultFlow](https://vaultflow-production-8062.up.railway.app)** — [GitHub](https://github.com/Assassin859/vaultflow)
-DeFi lending protocol with collateral management and real-time APY tracking. Built in 5 days on Oasis Sapphire Testnet.
+💧 **[VaultFlow](https://vaultflow-production-8062.up.railway.app)** — [GitHub](https://github.com/Assassin859/vaultflow)
+* DeFi lending protocol with collateral management, real-time APY tracking, and smart contracts deployed on Oasis Sapphire Testnet.
+* Built full-stack within 5 days with a highly responsive React frontend.
 
-**[ChainQuest](https://github.com/Assassin859/chainquest-home-task)**
-On-chain bounty escrow — ETH/ERC-20, 3% fee logic, full worker/poster flow, all 9 test scenarios passing.
+📜 **[ChainQuest](https://github.com/Assassin859/chainquest-home-task)**
+* On-chain bounty escrow supporting ETH/ERC-20, featuring 3% fee logic and a full worker/poster flow with all test scenarios passing.
 
-**[AI-CFO](https://github.com/Assassin859/AI-CFO)**
-AI-powered financial management tool for startups with market alerts and forecasting.
+🤖 **[AI-CFO](https://github.com/Assassin859/AI-CFO)**
+* AI-powered financial management assistant for startups with market alerts and forecasting.
 
----
-
-## 🤝 Open Source
-
-| Project | Contribution |
-|---|---|
-| [KeeperHub](https://github.com/KeeperHub/keeperhub) | Full Solana ChainAdapter — Turnkey signing, SOL transfer routing, dual EVM+Solana accounts, 27+ tests. 3,312 lines merged. [#1761](https://github.com/KeeperHub/keeperhub/pull/1761) [#1763](https://github.com/KeeperHub/keeperhub/pull/1763) |
-| [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) | Non-commutative hashing test coverage for MerkleTree library. Approved by core maintainer. [#6604](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6604) |
-
-> 🟣 **KeeperHub Community Partner** — recognized for Solana ecosystem contributions
+🎮 **[Shark Tank Simulator](https://github.com/Assassin859/mini-project)**
+* Interactive business pitch game with AI-powered investor feedback. Led 3-person team, contributed 70% of the codebase, deployed to 100+ users.
 
 ---
 
-## 🛠️ Stack
+## 🤝 Open Source Contributions
 
-<div align="center">
+| Project | Contribution Detail |
+| :--- | :--- |
+| **[KeeperHub](https://github.com/KeeperHub/keeperhub)** | **Solana ChainAdapter & Concurrency Fix**<br>• Deployed the read-side Solana ChainAdapter (balance queries, explorer URLs, failover handling) including a concurrency fix for shared provider caching (#1761, 606 lines).<br>• Deployed the write-side Solana ChainAdapter (Turnkey transaction signing, native SOL transfer routing, dual EVM+Solana account provisioning; #1763, 2,706 lines). |
+| **[OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts)** | **MerkleTree Library Testing**<br>• Added non-commutative hashing test coverage for MerkleTree library (#6604). Approved and merged by core maintainers. |
 
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum)
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws)
-![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs)
-
-</div>
+> 🟣 **KeeperHub Community Partner** — recognized for Solana ecosystem contributions.
 
 ---
 
-## 📊 GitHub Stats
+## 🎓 Certifications & Education
+
+* 🎓 **B.E. in Computer Science (Blockchain Specialization)** — University of Mumbai (Expected 2028)
+* 📜 **Build on BNB Chain** — BNB Chain Fundamentals by Rise In (Jul 2025)
+* 📜 **Ethereum Bootcamp** — Alchemy University (2024)
+* 📜 **AI for Techies** — Microsoft (Feb 2025)
+
+---
+
+## 📊 GitHub Stats & contribution
 
 <div align="center">
 
@@ -70,13 +94,11 @@ AI-powered financial management tool for startups with market alerts and forecas
 
 </div>
 
----
-
-## � Contribution graph
+### 🐍 Contribution Snake
 
 <div align="center">
 
-![GitHub contribution graph](https://ghchart.rshah.org/Assassin859)
+![github contribution grid snake animation](https://raw.githubusercontent.com/Assassin859/Assassin859/output/github-contribution-grid-snake.svg)
 
 </div>
 
