@@ -72,7 +72,7 @@ contract MaitreyaGaikwad is Ownable, Developer {
       <tr style="border-bottom: 1px solid #21262d;">
         <td style="padding: 12px;"><a href="https://github.com/Assassin859/cryptp" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0xa82d...7f6b</a></td>
         <td style="padding: 12px;"><span style="background-color: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">deployAtheonIDE</span></td>
-        <td style="padding: 12px; color: #c9d1d9;">2025</td>
+        <td style="padding: 12px; color: #c9d1d9;">2025 – 2026</td>
         <td style="padding: 12px;"><a href="https://cryptp-production.up.railway.app" style="color: #58a6ff; font-weight: 600; text-decoration: none;">Atheon IDE</a> <span style="color: #8b949e; font-size: 11px;">(Browser-native gas cost heatmap, built-in AI linting, WASM terminal)</span></td>
         <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
       </tr>
@@ -80,7 +80,7 @@ contract MaitreyaGaikwad is Ownable, Developer {
       <tr style="border-bottom: 1px solid #21262d;">
         <td style="padding: 12px;"><a href="https://pharbit.com" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0x4d2e...9a3c</a></td>
         <td style="padding: 12px;"><span style="background-color: rgba(139, 92, 246, 0.1); color: #a78bfa; border: 1px solid rgba(139, 92, 246, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">createPharbitChain</span></td>
-        <td style="padding: 12px; color: #c9d1d9;">2024</td>
+        <td style="padding: 12px; color: #c9d1d9;">2024 – 2026</td>
         <td style="padding: 12px;"><a href="https://pharbit.com" style="color: #58a6ff; font-weight: 600; text-decoration: none;">Pharbit System</a> <span style="color: #8b949e; font-size: 11px;">(Besu Ethereum private chain, 5 Solidity contracts, 4-node AWS validation)</span></td>
         <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
       </tr>
@@ -109,12 +109,28 @@ contract MaitreyaGaikwad is Ownable, Developer {
         <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
       </tr>
       <!-- Row 6 -->
-      <tr>
+      <tr style="border-bottom: 1px solid #21262d;">
         <td style="padding: 12px;"><a href="https://github.com/Assassin859/mini-project" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0x3c9b...5a1d</a></td>
         <td style="padding: 12px;"><span style="background-color: rgba(139, 92, 246, 0.1); color: #a78bfa; border: 1px solid rgba(139, 92, 246, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">runSharkTankSim</span></td>
         <td style="padding: 12px; color: #c9d1d9;">2024</td>
         <td style="padding: 12px;"><a href="https://github.com/Assassin859/mini-project" style="color: #58a6ff; font-weight: 600; text-decoration: none;">Shark Tank Simulator</a> <span style="color: #8b949e; font-size: 11px;">(Interactive business game with AI investor feedback mechanics)</span></td>
         <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
+      </tr>
+      <!-- Row 7 — 2026 OSS -->
+      <tr style="border-bottom: 1px solid #21262d;">
+        <td style="padding: 12px;"><a href="https://github.com/KeeperHub/keeperhub/pull/1763" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0x1763...3312</a></td>
+        <td style="padding: 12px;"><span style="background-color: rgba(16, 185, 129, 0.1); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">mergeSolanaAdapter</span></td>
+        <td style="padding: 12px; color: #34d399; font-weight: 600;">2026</td>
+        <td style="padding: 12px;"><a href="https://github.com/KeeperHub/keeperhub/pull/1763" style="color: #58a6ff; font-weight: 600; text-decoration: none;">KeeperHub #1761 & #1763</a> <span style="color: #8b949e; font-size: 11px;">(Full Solana ChainAdapter — read + write side, Turnkey signing, 3,312 lines merged)</span></td>
+        <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Merged ✓</span></td>
+      </tr>
+      <!-- Row 8 — 2026 OSS -->
+      <tr>
+        <td style="padding: 12px;"><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6604" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0x6604...0z3p</a></td>
+        <td style="padding: 12px;"><span style="background-color: rgba(16, 185, 129, 0.1); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">addMerkleTreeTests</span></td>
+        <td style="padding: 12px; color: #34d399; font-weight: 600;">2026</td>
+        <td style="padding: 12px;"><a href="https://github.com/OpenZeppelin/openzeppelin-contracts/pull/6604" style="color: #58a6ff; font-weight: 600; text-decoration: none;">OpenZeppelin #6604</a> <span style="color: #8b949e; font-size: 11px;">(Non-commutative hashing test coverage for MerkleTree library — approved by core maintainers)</span></td>
+        <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Merged ✓</span></td>
       </tr>
     </tbody>
   </table>
