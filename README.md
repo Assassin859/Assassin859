@@ -4,6 +4,10 @@
 
 <br/>
 
+![blockchain activity](https://raw.githubusercontent.com/Assassin859/Assassin859/main/blockchain_animation.svg)
+
+<br/>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=Assassin859&color=2563EB&style=for-the-badge&label=PROFILE+VIEWS)
 [![Twitter](https://img.shields.io/twitter/follow/assassin_859?style=for-the-badge&color=1DA1F2&logo=twitter&label=TWITTER)](https://twitter.com/assassin_859)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/maitreya-gaikwad-9b358b2a4)
@@ -108,6 +112,14 @@ contract MaitreyaGaikwad is Ownable, Developer {
 
 ![Maitreya's GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Assassin859&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 ![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Assassin859&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
+
+</div>
+
+### 📦 Blockchain Ledger (3D Contribution Graph)
+
+<div align="center">
+
+![3D Contribution Graph](https://raw.githubusercontent.com/Assassin859/Assassin859/main/profile-3d-contrib/profile-green-animate.svg)
 
 </div>
 
