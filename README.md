@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=28&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Maitreya+Gaikwad+%F0%9F%91%8B;Blockchain+%26+Web3+Developer;Smart+Contracts+%7C+DeFi+%7C+Solana;Building+production-grade+Web3+systems" alt="Typing SVG" />
-
-<br/>
-
-![encryption decryption activity](https://raw.githubusercontent.com/Assassin859/Assassin859/main/encryption_decryption.svg?v=2)
+<img src="https://raw.githubusercontent.com/Assassin859/Assassin859/main/matrix_decode.svg?v=1" width="800" alt="Matrix Cipher Decode Animation" />
 
 <br/>
 

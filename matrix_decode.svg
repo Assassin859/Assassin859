@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240">
+  <style>
+    /* ── Matrix rain fall ── */
+    @keyframes fall { 0%{transform:translateY(-30px);opacity:0} 15%{opacity:0.9} 85%{opacity:0.4} 100%{transform:translateY(240px);opacity:0} }
+    .r{font-family:'Courier New',monospace;font-size:13px;fill:#00FF41;opacity:0;}
+    .ra{animation:fall linear infinite;}
+
+    /* ── 3-state decode per line ── */
+    @keyframes enc  { 0%,28%{opacity:1} 33%,100%{opacity:0} }
+    @keyframes mid  { 0%,28%{opacity:0} 33%,60%{opacity:1} 65%,100%{opacity:0} }
+    @keyframes clr  { 0%,60%{opacity:0} 65%,92%{opacity:1} 97%,100%{opacity:0} }
+
+    .e { font-family:'Courier New',monospace; font-size:17px; fill:#00FF41; opacity:0; }
+    .m { font-family:'Courier New',monospace; font-size:17px; fill:#86EFAC; opacity:0; }
+    .c { font-family:'Share Tech Mono','Courier New',monospace; font-size:17px; fill:#38BDF8; font-weight:bold; opacity:0; }
+
+    /* stagger each line by its delay */
+    .l0.e{animation:enc 9s 0s infinite;}  .l0.m{animation:mid 9s 0s infinite;}  .l0.c{animation:clr 9s 0s infinite;}
+    .l1.e{animation:enc 9s 2.2s infinite;} .l1.m{animation:mid 9s 2.2s infinite;} .l1.c{animation:clr 9s 2.2s infinite;}
+    .l2.e{animation:enc 9s 4.4s infinite;} .l2.m{animation:mid 9s 4.4s infinite;} .l2.c{animation:clr 9s 4.4s infinite;}
+    .l3.e{animation:enc 9s 6.6s infinite;} .l3.m{animation:mid 9s 6.6s infinite;} .l3.c{animation:clr 9s 6.6s infinite;}
+
+    /* blinking cursor */
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+    .cur{fill:#38BDF8;animation:blink 0.9s step-end infinite;}
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="240" fill="#0D1117"/>
+
+  <!-- ── Matrix rain columns (background) ── -->
+  <!-- col 1 -->
+  <text class="r ra" x="20"  style="animation-duration:2.1s;animation-delay:0s">ア</text>
+  <text class="r ra" x="20"  style="animation-duration:2.1s;animation-delay:0.7s">ウ</text>
+  <text class="r ra" x="20"  style="animation-duration:2.1s;animation-delay:1.4s">エ</text>
+  <!-- col 2 -->
+  <text class="r ra" x="60"  style="animation-duration:1.8s;animation-delay:0.3s">カ</text>
+  <text class="r ra" x="60"  style="animation-duration:1.8s;animation-delay:1.1s">サ</text>
+  <text class="r ra" x="60"  style="animation-duration:1.8s;animation-delay:1.9s">タ</text>
+  <!-- col 3 -->
+  <text class="r ra" x="110" style="animation-duration:2.4s;animation-delay:0.5s">0</text>
+  <text class="r ra" x="110" style="animation-duration:2.4s;animation-delay:1.2s">1</text>
+  <text class="r ra" x="110" style="animation-duration:2.4s;animation-delay:1.9s">0</text>
+  <!-- col 4 -->
+  <text class="r ra" x="160" style="animation-duration:1.9s;animation-delay:0.2s">ナ</text>
+  <text class="r ra" x="160" style="animation-duration:1.9s;animation-delay:1.0s">ハ</text>
+  <text class="r ra" x="160" style="animation-duration:1.9s;animation-delay:1.7s">マ</text>
+  <!-- col 5 -->
+  <text class="r ra" x="640" style="animation-duration:2.2s;animation-delay:0.4s">ヤ</text>
+  <text class="r ra" x="640" style="animation-duration:2.2s;animation-delay:1.1s">ラ</text>
+  <text class="r ra" x="640" style="animation-duration:2.2s;animation-delay:1.8s">ワ</text>
+  <!-- col 6 -->
+  <text class="r ra" x="690" style="animation-duration:2.0s;animation-delay:0.6s">1</text>
+  <text class="r ra" x="690" style="animation-duration:2.0s;animation-delay:1.3s">0</text>
+  <text class="r ra" x="690" style="animation-duration:2.0s;animation-delay:2.0s">1</text>
+  <!-- col 7 -->
+  <text class="r ra" x="740" style="animation-duration:1.7s;animation-delay:0.9s">ア</text>
+  <text class="r ra" x="740" style="animation-duration:1.7s;animation-delay:1.6s">イ</text>
+  <text class="r ra" x="740" style="animation-duration:1.7s;animation-delay:2.3s">ウ</text>
+  <!-- col 8 -->
+  <text class="r ra" x="780" style="animation-duration:2.3s;animation-delay:0.1s">カ</text>
+  <text class="r ra" x="780" style="animation-duration:2.3s;animation-delay:0.8s">サ</text>
+  <text class="r ra" x="780" style="animation-duration:2.3s;animation-delay:1.5s">タ</text>
+
+  <!-- Subtle horizontal scanline separator -->
+  <rect x="200" y="118" width="400" height="1" fill="#00FF41" opacity="0.06"/>
+
+  <!-- ── LINE 0 : Hi, I'm Maitreya Gaikwad ── -->
+  <text x="400" y="68" text-anchor="middle" class="e l0">h#xYkV3tyU!D3N@mA!tR3y4#G@!kW@D</text>
+  <text x="400" y="68" text-anchor="middle" class="m l0">Hi#_ I'm M##treya G##kwad 👋 ____</text>
+  <text x="400" y="68" text-anchor="middle" class="c l0">Hi, I'm Maitreya Gaikwad 👋</text>
+
+  <!-- ── LINE 1 : Blockchain & Web3 Developer ── -->
+  <text x="400" y="108" text-anchor="middle" class="e l1">bL0cKcH@!n#&amp;W3b#D3v3l0p3r#!@#$</text>
+  <text x="400" y="108" text-anchor="middle" class="m l1">Bl##kchain &amp; W##3 Dev##oper _____</text>
+  <text x="400" y="108" text-anchor="middle" class="c l1">Blockchain &amp; Web3 Developer</text>
+
+  <!-- ── LINE 2 : Smart Contracts | DeFi | Solana ── -->
+  <text x="400" y="148" text-anchor="middle" class="e l2">5m@Rt#C0Ntr@cT5|D3F!|S0L@n@#!$</text>
+  <text x="400" y="148" text-anchor="middle" class="m l2">Sm##t Contr##ts | D##i | Sol##a _</text>
+  <text x="400" y="148" text-anchor="middle" class="c l2">Smart Contracts | DeFi | Solana</text>
+
+  <!-- ── LINE 3 : Building production-grade Web3 systems ── -->
+  <text x="400" y="188" text-anchor="middle" class="e l3">bU!Ld#pR0D#Gr@D3#W3B3#5y5t3mS$!</text>
+  <text x="400" y="188" text-anchor="middle" class="m l3">Bu##ding prod##tion-gr##e W##3 sy##ems</text>
+  <text x="400" y="188" text-anchor="middle" class="c l3">Building production-grade Web3 systems</text>
+
+  <!-- blinking cursor bottom right -->
+  <text x="770" y="220" font-family="'Courier New',monospace" font-size="16" class="cur">▋</text>
+</svg>
