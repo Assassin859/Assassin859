@@ -4,7 +4,7 @@
 
 <br/>
 
-![encryption decryption activity](https://raw.githubusercontent.com/Assassin859/Assassin859/main/encryption_decryption.svg)
+![encryption decryption activity](https://raw.githubusercontent.com/Assassin859/Assassin859/main/encryption_decryption.svg?v=2)
 
 <br/>
 
