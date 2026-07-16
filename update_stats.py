@@ -27,7 +27,7 @@ def fetch_github_stats(username):
             repos_data = json.loads(response_repos.read().decode())
             
         stars = sum(repo.get("stargazers_count", 0) for repo in repos_data)
-        repos_count = user_data.get("public_repos", 0)
+        repos_count = user_data.get("public_repos", 0) + user_data.get("total_private_repos", 0)
         followers = user_data.get("followers", 0)
         
         # Calculate dynamic Web3 metrics

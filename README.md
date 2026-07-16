@@ -4,10 +4,6 @@
 
 <br/>
 
-![blockchain activity](https://raw.githubusercontent.com/Assassin859/Assassin859/main/blockchain_animation.svg)
-
-<br/>
-
 ![Profile Views](https://komarev.com/ghpvc/?username=Assassin859&color=2563EB&style=for-the-badge&label=PROFILE+VIEWS)
 [![Twitter](https://img.shields.io/twitter/follow/assassin_859?style=for-the-badge&color=1DA1F2&logo=twitter&label=TWITTER)](https://twitter.com/assassin_859)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/maitreya-gaikwad-9b358b2a4)
@@ -58,31 +54,71 @@ contract MaitreyaGaikwad is Ownable, Developer {
 
 ---
 
-## 🔨 What I Build
+## 📑 Block Explorer (Verified Project Deployments)
 
-🚀 **[Atheon IDE](https://cryptp-production.up.railway.app)** — [GitHub](https://github.com/Assassin859/cryptp)
-* Browser-native Solidity IDE with line-by-line gas cost heatmap (unique differentiator vs Remix).
-* Built-in AI security linting, function-level gas analytics charts, and multi-chain deployment support.
-* Multi-provider AI integration layer supporting user-supplied API keys (OpenAI/Claude) and automatic GitHub Copilot key retrieval via GitHub OAuth.
-* Sandbox environment featuring WebAssembly sandboxed Linux terminal, Supabase Auth, and Wagmi/Ethers.js wallet integration.
-
-🏥 **[Pharbit Blockchain System](https://pharbit.com)**
-* Enterprise-grade private Ethereum chain (Hyperledger Besu, IBFT 2.0 consensus) for pharmaceutical supply chain verification.
-* Built 4-node AWS validator network with 2-second block time, IPFS (Web3.Storage) integration, and full-stack React.js/Supabase admin dashboard.
-* Deployed 5 production smart contracts in Solidity (1,135 lines total) with role-based access control, reentrancy guards, and a USDT-backed deposit system.
-
-💧 **[VaultFlow](https://vaultflow-production-8062.up.railway.app)** — [GitHub](https://github.com/Assassin859/vaultflow)
-* DeFi lending protocol with collateral management, real-time APY tracking, and smart contracts deployed on Oasis Sapphire Testnet.
-* Built full-stack within 5 days with a highly responsive React frontend.
-
-📜 **[ChainQuest](https://github.com/Assassin859/chainquest-home-task)**
-* On-chain bounty escrow supporting ETH/ERC-20, featuring 3% fee logic and a full worker/poster flow with all test scenarios passing.
-
-🤖 **[AI-CFO](https://github.com/Assassin859/AI-CFO)**
-* AI-powered financial management assistant for startups with market alerts and forecasting.
-
-🎮 **[Shark Tank Simulator](https://github.com/Assassin859/mini-project)**
-* Interactive business pitch game with AI-powered investor feedback. Led 3-person team, contributed 70% of the codebase, deployed to 100+ users.
+<div style="border: 1px solid #30363d; border-radius: 8px; overflow: hidden; background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 13px;">
+    <thead>
+      <tr style="background-color: #161b22; border-bottom: 1px solid #30363d;">
+        <th style="padding: 12px; color: #8b949e; font-weight: 600; font-family: monospace;">Txn Hash</th>
+        <th style="padding: 12px; color: #8b949e; font-weight: 600; font-family: monospace;">Method</th>
+        <th style="padding: 12px; color: #8b949e; font-weight: 600;">Block</th>
+        <th style="padding: 12px; color: #8b949e; font-weight: 600;">To (Verified Contract / Project)</th>
+        <th style="padding: 12px; color: #8b949e; font-weight: 600; text-align: right;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Row 1 -->
+      <tr style="border-bottom: 1px solid #21262d;">
+        <td style="padding: 12px;"><a href="https://github.com/Assassin859/cryptp" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0xa82d...7f6b</a></td>
+        <td style="padding: 12px;"><span style="background-color: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">deployAtheonIDE</span></td>
+        <td style="padding: 12px; color: #c9d1d9;">2025</td>
+        <td style="padding: 12px;"><a href="https://cryptp-production.up.railway.app" style="color: #58a6ff; font-weight: 600; text-decoration: none;">Atheon IDE</a> <span style="color: #8b949e; font-size: 11px;">(Browser-native gas cost heatmap, built-in AI linting, WASM terminal)</span></td>
+        <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
+      </tr>
+      <!-- Row 2 -->
+      <tr style="border-bottom: 1px solid #21262d;">
+        <td style="padding: 12px;"><a href="https://pharbit.com" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0x4d2e...9a3c</a></td>
+        <td style="padding: 12px;"><span style="background-color: rgba(139, 92, 246, 0.1); color: #a78bfa; border: 1px solid rgba(139, 92, 246, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">createPharbitChain</span></td>
+        <td style="padding: 12px; color: #c9d1d9;">2024</td>
+        <td style="padding: 12px;"><a href="https://pharbit.com" style="color: #58a6ff; font-weight: 600; text-decoration: none;">Pharbit System</a> <span style="color: #8b949e; font-size: 11px;">(Besu Ethereum private chain, 5 Solidity contracts, 4-node AWS validation)</span></td>
+        <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
+      </tr>
+      <!-- Row 3 -->
+      <tr style="border-bottom: 1px solid #21262d;">
+        <td style="padding: 12px;"><a href="https://github.com/Assassin859/vaultflow" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0x92f8...2b1a</a></td>
+        <td style="padding: 12px;"><span style="background-color: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">launchVaultFlow</span></td>
+        <td style="padding: 12px; color: #c9d1d9;">2025</td>
+        <td style="padding: 12px;"><a href="https://vaultflow-production-8062.up.railway.app" style="color: #58a6ff; font-weight: 600; text-decoration: none;">VaultFlow DeFi</a> <span style="color: #8b949e; font-size: 11px;">(Lending protocol on Oasis Sapphire Testnet, collateral management)</span></td>
+        <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
+      </tr>
+      <!-- Row 4 -->
+      <tr style="border-bottom: 1px solid #21262d;">
+        <td style="padding: 12px;"><a href="https://github.com/Assassin859/chainquest-home-task" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0x7c3a...6e8f</a></td>
+        <td style="padding: 12px;"><span style="background-color: rgba(139, 92, 246, 0.1); color: #a78bfa; border: 1px solid rgba(139, 92, 246, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">deployChainQuest</span></td>
+        <td style="padding: 12px; color: #c9d1d9;">2024</td>
+        <td style="padding: 12px;"><a href="https://github.com/Assassin859/chainquest-home-task" style="color: #58a6ff; font-weight: 600; text-decoration: none;">ChainQuest</a> <span style="color: #8b949e; font-size: 11px;">(On-chain bounty escrow with ETH/ERC-20 & 3% fee routing logic)</span></td>
+        <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
+      </tr>
+      <!-- Row 5 -->
+      <tr style="border-bottom: 1px solid #21262d;">
+        <td style="padding: 12px;"><a href="https://github.com/Assassin859/AI-CFO" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0x5d8c...3b9e</a></td>
+        <td style="padding: 12px;"><span style="background-color: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">initAICFO</span></td>
+        <td style="padding: 12px; color: #c9d1d9;">2024</td>
+        <td style="padding: 12px;"><a href="https://github.com/Assassin859/AI-CFO" style="color: #58a6ff; font-weight: 600; text-decoration: none;">AI-CFO</a> <span style="color: #8b949e; font-size: 11px;">(AI startup treasury management with forecasting models)</span></td>
+        <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
+      </tr>
+      <!-- Row 6 -->
+      <tr>
+        <td style="padding: 12px;"><a href="https://github.com/Assassin859/mini-project" style="color: #58a6ff; text-decoration: none; font-family: monospace; font-size: 12px;">0x3c9b...5a1d</a></td>
+        <td style="padding: 12px;"><span style="background-color: rgba(139, 92, 246, 0.1); color: #a78bfa; border: 1px solid rgba(139, 92, 246, 0.2); padding: 3px 6px; border-radius: 4px; font-family: monospace; font-size: 11px;">runSharkTankSim</span></td>
+        <td style="padding: 12px; color: #c9d1d9;">2024</td>
+        <td style="padding: 12px;"><a href="https://github.com/Assassin859/mini-project" style="color: #58a6ff; font-weight: 600; text-decoration: none;">Shark Tank Simulator</a> <span style="color: #8b949e; font-size: 11px;">(Interactive business game with AI investor feedback mechanics)</span></td>
+        <td style="padding: 12px; text-align: right;"><span style="background-color: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 500;">Success</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ---
 
@@ -106,9 +142,13 @@ contract MaitreyaGaikwad is Ownable, Developer {
 
 ---
 
-## 📊 GitHub Stats & contribution
+## 🏆 Badges & Stats
 
 <div align="center">
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=Assassin859&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+<br/>
 
 ![Maitreya's GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Assassin859&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 ![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Assassin859&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
