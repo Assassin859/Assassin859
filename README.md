@@ -4,6 +4,10 @@
 
 <br/>
 
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=22&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&multiline=false&width=750&lines=Hi%2C+I'm+Maitreya+Gaikwad+%F0%9F%91%8B;Blockchain+%26+Web3+Developer;Smart+Contracts+%7C+DeFi+%7C+Solana;Building+production-grade+Web3+systems;1%2C135+lines+of+production+Solidity;3%2C312+lines+merged+in+open+source;Hyperledger+Besu+%7C+IBFT+2.0+%7C+AWS;OpenZeppelin+%7C+Hardhat+%7C+Ethers.js" alt="Typing SVG" />
+
+<br/>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=Assassin859&color=2563EB&style=for-the-badge&label=PROFILE+VIEWS)
 [![Twitter](https://img.shields.io/twitter/follow/assassin_859?style=for-the-badge&color=1DA1F2&logo=twitter&label=TWITTER)](https://twitter.com/assassin_859)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/maitreya-gaikwad-9b358b2a4)
