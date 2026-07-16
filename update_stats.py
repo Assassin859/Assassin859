@@ -67,7 +67,7 @@ def update_svgs():
         # Replace balance
         content = re.sub(r'<text x="180" y="0" [^>]*>[^<]*</text>', f'<text x="180" y="0" font-family="-apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, sans-serif" font-size="32" fill="#FFFFFF" font-weight="bold" text-anchor="middle">{stats["wei_balance"]} WEI</text>', content)
         # Replace USD value
-        content = re.sub(r'<text x="180" y="20" [^>]*>[^<]*</text>', f'<text x="180" y="20" font-family="-apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">${stats["usd_value"]} USD (OS Commits)</text>', content)
+        content = re.sub(r'<text x="180" y="20" [^>]*>[^<]*</text>', f'<text x="180" y="20" font-family="-apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">${stats["usd_value"]} USD (OS Commits)</text>', content)
         
         with open(metamask_path, "w", encoding="utf-8") as f:
             f.write(content)
