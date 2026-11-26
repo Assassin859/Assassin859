@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Maitreya+Gaikwad+%F0%9F%91%8B;Blockchain+%26+Web3+Developer;Smart+Contracts+%7C+DeFi+%7C+Solana;Building+production-grade+Web3+systems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Maitreya+Gaikwad+%F0%9F%91%8B;Security+Researcher+%C2%B7+Remix+Labs;Solidity+%7C+Foundry+%7C+Execution+Safety;Verifiable+smart-contract+tooling" alt="Typing SVG" />
 
 <br/>
 
@@ -16,14 +16,15 @@
 
 ## About
 
-Blockchain & backend developer with ~2 years of production experience building decentralized systems, smart contracts, and full-stack Web3 apps.
+Security researcher and smart-contract engineer focused on execution safety, Foundry verification, and developer tooling — currently with **Remix Labs** on TheDAO Security Fund initiative for AI-guided checklist audits in Remix.
 
+- **Remix Labs · TheDAO** — Phase 3 Foundry prove-step for Cyfrin checklist findings (fail-before-fix / pass-after-fix)
 - Sole engineer on a private Ethereum pharma supply-chain platform (**Hyperledger Besu**, IBFT 2.0, 4-node AWS, 5 production Solidity contracts)
 - **KeeperHub Community Partner** — 19 merged PRs (~18.5k LOC) across Solana adapter, MCP/agent DX, and execution safety
 - Merged contributor to **OpenZeppelin Contracts**
 - **ETHOnline 2026** (ETHGlobal) · **DoraHacks** Best UI/UX bounty winner
 
-**Focus:** execution safety, money-moving correctness, and developer tooling.
+**Focus:** execution safety, money-moving correctness, and verifiable audit tooling.
 
 ---
 
@@ -49,10 +50,10 @@ Blockchain & backend developer with ~2 years of production experience building d
 pragma solidity ^0.8.24;
 
 /// @title Profile — stylized skill registry (not deployed)
-/// @notice Maitreya Gaikwad · Blockchain & Web3 Developer · Mumbai, India
+/// @notice Maitreya Gaikwad · Security Researcher · Remix Labs · Mumbai, India
 contract Profile {
     string public constant NAME = "Maitreya Gaikwad";
-    string public constant ROLE = "Blockchain Developer | Smart Contracts & Web3 Infrastructure";
+    string public constant ROLE = "Security Researcher | Remix Labs · TheDAO | Foundry & EVM tooling";
     string public constant LOCATION = "Mumbai, India | Remote";
 
     string[] public languages;
@@ -86,7 +87,9 @@ contract Profile {
 
 | Txn | Method | Block | Project | Status |
 | :--- | :--- | :--- | :--- | :---: |
-| [`0xa82d…7f6b`](https://github.com/Assassin859/cryptp) | `deployAethonIDE` | 2025–Present | **[Aethon IDE](https://cryptp-production.up.railway.app)** — browser-native Solidity IDE with gas heatmap, AI security linting, WASM terminal · ETHOnline 2026 | Success |
+| [`0xa82d…7f6b`](https://github.com/Assassin859/cryptp) | `deployAethonIDE` | 2025–Present | **[Aethon IDE](https://cryptp-production.up.railway.app)** — browser-native Solidity IDE with AST scanner, deploy gate, gas heatmap, BYOK AI · ETHOnline 2026 | Success |
+| [`0xrp…usdg`](https://github.com/Assassin859/ReserveProof) | `proveReserves` | 2026 | **[ReserveProof](https://reserveproof-teal.vercel.app)** — open-source proof of reserves + ExitRight (USDG / Robinhood stock tokens) · Foundry fuzz | Success |
+| [`0xegd…bsc`](https://github.com/Assassin859/executable-gap-desk) | `gateExecutableGap` | 2026 | **[Executable Gap Desk](https://executable-gap-desk.vercel.app)** — displayed vs executable gaps for tokenized stocks on BSC · GO/CAUTION/BLOCK | Success |
 | [`0x4d2e…9a3c`](https://pharbit.com) | `createPharbitChain` | 2024–2026 | **[Pharbit](https://pharbit.com)** — Besu private chain, 5 Solidity contracts, 4-node AWS validators · [codebase](https://github.com/Maitreyapharbit/Blockchain) | Success |
 | [`0x92f8…2b1a`](https://github.com/Assassin859/vaultflow) | `launchVaultFlow` | 2025 | **[VaultFlow](https://vaultflow-production-8062.up.railway.app)** — DeFi lending on Oasis Sapphire Testnet | Success |
 | [`0x7c3a…6e8f`](https://github.com/Assassin859/chainquest-home-task) | `deployChainQuest` | 2024 | **[ChainQuest](https://github.com/Assassin859/chainquest-home-task)** — on-chain bounty escrow (ETH/ERC-20, fee routing) | Success |
@@ -120,6 +123,7 @@ Also filed [#2435](https://github.com/KeeperHub/keeperhub/issues/2435) (stableco
 
 | Role | Org | Period |
 | :--- | :--- | :--- |
+| **Security Researcher** | Remix Labs · TheDAO Security Fund initiative | 2026 – Present |
 | **Blockchain Engineer (Contract)** | Pharbit Technologies · Remote / Germany | Aug 2024 – Jul 2026 |
 | **Freelance Blockchain Developer** | Self-employed · Mumbai | May 2024 – Aug 2024 |
 
@@ -186,8 +190,8 @@ Infra        AWS EC2 · Docker · GitHub Actions · Vercel · Netlify
 
 [![Discord](https://img.shields.io/badge/Discord-maitsol-5865F2?style=for-the-badge&logo=discord)](https://discord.com)
 
-**Available for remote contracts, internships & full-time Web3 roles** · Immediate
+**Security research · Foundry verification · EVM tooling** · Remix Labs · TheDAO
 
-*Building at the intersection of blockchain infrastructure and developer tooling.*
+*LLM explains; Foundry proves.*
 
 </div>
