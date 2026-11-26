@@ -163,12 +163,12 @@ Infra        AWS EC2 · Docker · GitHub Actions · Vercel · Netlify
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy-fork-two.vercel.app/?username=Assassin859&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Assassin859&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 <br/>
 
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Assassin859&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Assassin859&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Assassin859&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Assassin859&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
 
 </div>
 
